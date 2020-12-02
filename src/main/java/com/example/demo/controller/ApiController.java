@@ -19,7 +19,7 @@ import lombok.AllArgsConstructor;
 @RestController
 @RequestMapping("/ratingBookApi")
 @AllArgsConstructor
-public class ClimaController {
+public class ApiController {
 	
 	@Autowired
 	private ApiService apiService;
